@@ -1,8 +1,8 @@
 # InteropSeam — plan the Swift/C seam SE-0541 finally lets you design
 
-**Article:** (added after publish)
+**Article:** [Your Objective-C Umbrella Exports 16 Declarations. Under SE-0541, One Has to Stay Public — and It's a Leak.](https://medium.com/@er.rajatlakhina/your-objective-c-umbrella-exports-16-declarations-ddb8c69ab268) (Medium)
 
-SE-0541 *Flexible Swift/C Interoperability for Packages* was accepted on 25 August 2026. It lets one
+SE-0541 *Flexible Swift/C Interoperability for Packages* was accepted by the Ecosystem Steering Group; the acceptance was announced on 25 August 2026. It lets one
 package target mix Swift and C-family sources, and it lets a Swift target reach non-modular C through a
 bridging header — with one rule that matters more than the feature: **a library target's bridging header
 can only be `.internal`.** Anything a `public` Swift signature mentions cannot come from the bridging
